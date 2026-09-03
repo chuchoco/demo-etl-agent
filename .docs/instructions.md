@@ -1,27 +1,32 @@
-# Instructions
+# Hướng dẫn
 
-Your task is to change the data format of letters and their point values in the game.
+Nhiệm vụ của bạn là đổi định dạng lưu trữ chữ cái và điểm số tương ứng
+trong game.
 
-Currently, letters are stored in groups based on their score, in a one-to-many mapping.
+Hiện tại, chữ cái được lưu theo nhóm dựa trên điểm số, kiểu ánh xạ
+một-nhiều:
 
-- 1 point: "A", "E", "I", "O", "U", "L", "N", "R", "S", "T",
-- 2 points: "D", "G",
-- 3 points: "B", "C", "M", "P",
-- 4 points: "F", "H", "V", "W", "Y",
-- 5 points: "K",
-- 8 points: "J", "X",
-- 10 points: "Q", "Z",
+- 1 điểm: "A", "E", "I", "O", "U", "L", "N", "R", "S", "T"
+- 2 điểm: "D", "G"
+- 3 điểm: "B", "C", "M", "P"
+- 4 điểm: "F", "H", "V", "W", "Y"
+- 5 điểm: "K"
+- 8 điểm: "J", "X"
+- 10 điểm: "Q", "Z"
 
-This needs to be changed to store each individual letter with its score in a one-to-one mapping.
+Cần đổi sang lưu từng chữ cái riêng lẻ kèm điểm số của nó, kiểu ánh xạ
+một-một.
 
-- "a" is worth 1 point.
-- "b" is worth 3 points.
-- "c" is worth 3 points.
-- "d" is worth 2 points.
-- etc.
+- "a" đáng giá 1 điểm.
+- "b" đáng giá 3 điểm.
+- "c" đáng giá 3 điểm.
+- "d" đáng giá 2 điểm.
+- v.v.
 
-As part of this change, the team has also decided to change the letters to be lower-case rather than upper-case.
+Ngoài ra, team cũng quyết định đổi các chữ cái từ viết HOA sang viết
+thường.
 
 ~~~~exercism/note
-If you want to look at how the data was previously structured and how it needs to change, take a look at the examples in the test suite.
+Nếu muốn xem cấu trúc dữ liệu cũ và cách nó cần thay đổi ra sao, xem các
+ví dụ trong bộ test.
 ~~~~
