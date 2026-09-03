@@ -1,16 +1,20 @@
-# Introduction
+# Giới thiệu
 
-You work for a company that makes an online multiplayer game called Lexiconia.
+Bạn làm việc cho một công ty làm game nhiều người chơi online tên là Lexiconia.
 
-To play the game, each player is given 13 letters, which they must rearrange to create words.
-Different letters have different point values, since it's easier to create words with some letters than others.
+Để chơi, mỗi người chơi được phát 13 chữ cái, phải sắp xếp lại để tạo
+thành từ. Các chữ cái khác nhau có điểm số khác nhau, vì có chữ dễ ghép
+thành từ hơn chữ khác.
 
-The game was originally launched in English, but it is very popular, and now the company wants to expand to other languages as well.
+Game ban đầu ra mắt bằng tiếng Anh, nhưng rất được ưa chuộng, nên giờ
+công ty muốn mở rộng sang các ngôn ngữ khác.
 
-Different languages need to support different point values for letters.
-The point values are determined by how often letters are used, compared to other letters in that language.
+Mỗi ngôn ngữ cần có điểm số riêng cho từng chữ cái. Điểm số được xác
+định dựa trên tần suất sử dụng của chữ cái đó so với các chữ khác trong
+ngôn ngữ đó.
 
-For example, the letter 'C' is quite common in English, and is only worth 3 points.
-But in Norwegian it's a very rare letter, and is worth 10 points.
+Ví dụ, chữ "C" khá phổ biến trong tiếng Anh, chỉ đáng 3 điểm. Nhưng
+trong tiếng Na Uy đây lại là chữ hiếm, đáng tới 10 điểm.
 
-To make it easier to add new languages, your team needs to change the way letters and their point values are stored in the game.
+Để dễ dàng thêm ngôn ngữ mới, team bạn cần đổi cách lưu trữ chữ cái và
+điểm số của chúng trong game.
