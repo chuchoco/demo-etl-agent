@@ -1,0 +1,1 @@
+Đọc file .docs/introduction.md và .docs/instructions.md để hiểu bối cảnh và đề bài, rồi cài đặt hàm transform trong etl.py cho đúng yêu cầu. Sau khi xong, chạy pytest -v để xác nhận toàn bộ test pass.
